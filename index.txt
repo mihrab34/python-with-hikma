@@ -1,0 +1,6 @@
+Strings
+Integer
+Boolean
+Dictionary
+Tuple
+Sets
