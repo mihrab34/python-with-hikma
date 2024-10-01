@@ -1,38 +1,37 @@
 # # Main Data Types
 #
-# firstname: str = "Rahmat"
-# lastname = "Akintola"
+firstname: str = "Rahmat"
+lastname = "Akintola"
+
+fullname = f"{firstname} Olajumoke {lastname}"  # string interpolation with f-strings
+print(fullname)
 #
-# fullname = f"{firstname} Olajumoke {lastname}"
-# print(fullname)
+price = 50
+
+print(f'{price} GHS')
+
+total = 30
 #
-# price = 50
-#
-# print(f'{price} GHS')
-#
-# total = 30
-#
-# prices = '50'
-#
-# print(int(prices) + total)
-#
-# print(total // 10)
-#
-# print(type(total))
-from typing import List, Dict
+prices = '50'
+
+print(int(prices) + total)  # type conversion
+
+print(total // 10)
+
+print(type(total))
 
 # Lists
-# names = ["sola", 89, True, {"message": "Form created"}]
+names = ["sola", 89, True, {"message": "Form created"}]
+
+print(names)
 #
-# print(names)
-#
-# names[0] = "Hikma"
-#
-# names.append(24)
-# names.pop()
-# print(len(names))
-# names.insert(3, "Demo")
-# print(names)
+names[0] = "Hikma"
+
+names.append(24)
+names.pop()
+print(len(names))
+names.insert(3, "Demo")
+print(names)
 
 # Dictionary
 
@@ -43,5 +42,3 @@ print(f" I have {fruits['quantity']} {fruits['name']}s")
 fruits.pop("status")
 fruit
 print(fruits)
-
-

@@ -4,3 +4,6 @@ Boolean
 Dictionary
 Tuple
 Sets
+Ranges
+Working with Sequences
+Modifying Objects In python
