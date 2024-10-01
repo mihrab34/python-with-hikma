@@ -40,5 +40,4 @@ fruits = {"name": "orange", "quantity": 20, "status": False}
 fruits['name'] = "Apple"
 print(f" I have {fruits['quantity']} {fruits['name']}s")
 fruits.pop("status")
-fruit
 print(fruits)
